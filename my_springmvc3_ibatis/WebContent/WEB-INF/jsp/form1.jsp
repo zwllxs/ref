@@ -70,6 +70,22 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     </table>  
 </form:form> 
 
+ 第二个，不使用delete，绑定值试试
+<hr>
+<form:form action="save11.do"  modelAttribute="person">  
+    <table>  
+        <tr>  
+            <td>Name:</td><td><form:input path="name"/></td>  
+        </tr>  
+        <tr>  
+            <td>Age:</td><td><form:input path="age"/></td>  
+        </tr>  
+        <tr>  
+            <td colspan="2"><input type="submit" value="提交"/></td>  
+        </tr>  
+    </table>  
+</form:form> 
+
 
 使用commandName指定后台绑定的属性
 <hr>

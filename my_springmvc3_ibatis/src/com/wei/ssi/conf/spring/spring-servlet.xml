@@ -16,6 +16,12 @@
 	<mvc:annotation-driven />
 
 	<!-- Forwards requests to the "/" resource to the "welcome" view(从WEB-INF下开始的) -->
+	<!-- 
+		当响应视图是不需要执行控制器逻辑时使用
+	An example of view-controller that forwards to a home page is shown below:
+	一个跳转到主页的配置例子
+	<mvc:view-controller path="/" view-name="home"/>
+	 -->
 	<mvc:view-controller path="/jsp/" view-name="hello"/>
 
 	<!-- Configures Handler Interceptors -->	

@@ -114,6 +114,14 @@ public class Form1TestController extends MultiActionController
         System.out.println("person: " + person);
         return "ok";
     }
+    
+    
+    @RequestMapping(value = "/form1/save11.do")
+    public String save11(Person person)
+    {
+        System.out.println("person_SAVE11: " + person);
+        return "ok";
+    }
 
     /**
      * 有表单校验(实现接口)

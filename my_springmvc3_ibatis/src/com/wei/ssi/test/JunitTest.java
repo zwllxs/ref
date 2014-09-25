@@ -3,6 +3,7 @@ package com.wei.ssi.test;
 import junit.framework.TestCase;
 
 import org.apache.log4j.Logger;
+import org.hibernate.validator.HibernateValidator;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -27,6 +28,9 @@ public class JunitTest extends TestCase {
 	
 	
 	public void testInsert(){
+	    
+	    
+	    
 		Employe employe = new Employe();
 		employe.setId(MethodUtil.getInit().getLongId());//设置Id
 		employe.setName("张三");

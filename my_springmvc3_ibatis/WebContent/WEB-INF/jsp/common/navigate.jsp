@@ -1,5 +1,5 @@
-<%@page import="com.wei.ssi.utils.Navigate"%>
-<%@page import="com.wei.ssi.model.BaseModel"%>
+<%@page import="com.zwlsoft.utils.Navigate"%>
+<%@page import="com.zwlsoft.model.BaseModel"%>
 <%@ page language="java" pageEncoding="UTF-8"%>
 <style type="text/css">
 <!--
